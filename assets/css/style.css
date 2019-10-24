@@ -1,0 +1,51 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#col0, #row1, #row2, #row3, #row4, #row5, #row6, #row7, #row8, #row9, #row10, #row11, #row12, #row13, #row14, #row15, #row16, #row17, #row18, #row19, #row20, #row21, #row22, #row23, #row24 {
+    text-align: right;
+}
+
+table td input {
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 0.5px;
+    border-bottom-width: 0.5px;
+}
+
+table th, td {
+    height: 50px;
+}
+
+.button {
+    border: blue;
+    border-end-end-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    width: 100%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: -3px;
+  }
+  
+  .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9, .button10, .button11, .button12, .button13, .button14, .button15, .button16, .button17, .button18, .button19, .button20, .button21, .button22, .button23, .button24 {
+    background-color: blue; 
+    color: white;
+    background-image: url(assets/images/save.svg);
+  }
+
+  .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .button7:hover, .button8:hover, .button9:hover, .button10:hover, .button11:hover, .button12:hover, .button13:hover, .button14:hover, .button15:hover, .button16:hover, .button17:hover, .button18:hover, .button19:hover, .button20:hover, .button21:hover, .button22:hover, .button23:hover, .button24:hover {
+    background-color: white; 
+    background-image: url(assets/images/save.svg);
+    transition-duration: 0.5s;
+    
+  }
